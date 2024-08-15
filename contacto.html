@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabajo final PFE </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ <header>
+    <h1>MUNAY</h1>
+    <p>Bienvenidos a la pagina principal de aceites escenciales de Munay!</p>
+    <nav>
+        <ul>
+            <li><a href="hindex.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!--seccion para la edicion de la carta mediante css-->
+    <section class="recipies-grid">
+        <div class="recipie-card">
+        <h2>CONTACTANOS</h2>
+        <p>Si estas interesado en alguno de nuestros productos no dudes en contactarnos tanto como para preguntar como para encargar.
+            Aqui abajo te dejamos nuestros contactos y si le resulta mas facil le dejamos un formulario para que nos pueda dar mas detalladamente sus especificaciones para la compra o cualquier duda que tenga , gracias!:
+        </p>
+        <ul>
+            <li>+54 9 346215521125</li>
+            <li>+54 9 3462688857</li>
+        </ul>
+    </div>
+    </section>
+    <!--Seccion de formulario para el usuario-->
+    <section class="contacts-forms">
+        <form action=send-a-message method="post">
+            <!--div para el campo de entrada del nombre-->
+            <div class="form-group">
+                <label for="name">nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <!--div para el campo de entrada del correo electronico-->
+            <div class="form-group">
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <!--div para el aera de texto para el mensaje de el usuario-->
+            <div class="form-group">
+            <label for="message">mensaje</label>
+            <textarea name="message" id="message" rows="5 required"></textarea>
+            </div>
+            <!--boton para enviar el formulario-->
+            <button type="submit" class="botton">ENVIAR FORMULARIO</button>
+        </form>            
+    </section>
+</main>
+<footer>
+    <p>Munay 2024 Ignacio Catillo De Buono</p>
+</footer>
+</body>
+</html>
